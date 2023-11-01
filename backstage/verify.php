@@ -51,7 +51,7 @@ $row = $result->fetch_assoc();
 if ($result->num_rows == 0){
     //查询是否存在结果
     $return = array(
-        'code' =>404
+        'code' =>480
     );
     echo json_encode($return);
     exit();
