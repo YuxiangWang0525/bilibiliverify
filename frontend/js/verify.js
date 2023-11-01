@@ -18,9 +18,9 @@
 				      } else if (response.code === 404) {
 				        alert("不存在此UID!请先获取验证码");
 				      } else if (response.code === 450) {
-				        alert("您尚未将验证码发送给“字节元工作室群”官方账号!");
+				        alert("您尚未将验证码发送给“[您的组织名称]”官方账号!");
 				      } else if (response.code === 490) {
-				        alert("您尚未关注“字节元工作室群”!");
+				        alert("您尚未关注“[您的组织名称]”!");
 				      }
 				    } else {
 				      console.error('请求失败，状态码：' + xhr.status);
