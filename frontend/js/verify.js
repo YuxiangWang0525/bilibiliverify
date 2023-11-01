@@ -15,7 +15,7 @@
 				        alert("验证成功!请使用您之前填入的QQ号加群 自动程序将予以通过!");
 				      } else if (response.code === 500) {
 				        alert("一个B站账号只能用于通过一个入群申请,您已有一个入群的账号,请勿重复验证!");
-				      } else if (response.code === 80) {
+				      } else if (response.code === 480) {
 				        alert("不存在此UID!请先获取验证码");
 				      } else if (response.code === 450) {
 				        alert("您尚未将验证码发送给“[您的组织名称]”官方账号!");
